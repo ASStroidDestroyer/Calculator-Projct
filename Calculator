@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+ division
         try
         {
             Console.Write("Enter the first number: ");
@@ -26,6 +27,17 @@ class Program
         {
             Console.WriteLine("Error: Please enter valid numbers.");
         }
+
+        Console.Write("Enter first number: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        
+        Console.Write("Enter second number: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        
+        double result = num1 * num2;
+        
+        Console.WriteLine($"The product of {num1} and {num2} is: {result}");
+ multiplication
     }
 }
 
